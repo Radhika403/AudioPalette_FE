@@ -1,4 +1,4 @@
-.opening_center {
+/* .opening_center {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -16,9 +16,80 @@
 
 .opening_center button {
     border: 4px solid white;
-    /* Green */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
     color: white;
     padding: 15px 30px;
+} */
+
+html {
+    background: black;
+    background-image: radial-gradient(circle at left, #9d2951 10%, #431d71 25%, #321754 40%, black 70%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.opening_center {
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.for-justify {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    margin: 0px 50px 0px 150px;
+}
+
+.content {
+    display: inline-block;
+}
+
+.left {
+    margin-top: 5rem;
+}
+
+h1 {
+    font-family: "satisfy";
+    font-size: 9rem;
+    align-self: center;
+    color: white;
+    line-height: 0.3;
+    text-indent: 100px;
+    font-style: normal;
+    font-weight: 200;
+}
+
+p {
+    font-family: "satisfy";
+    color: white;
+    font-size: 1.5rem;
+    text-indent: 100px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+button {
+    margin-left: 100px;
+    font-family: "satisfy";
+    color: white;
+    font-size: 1.5rem;
+    /* text-indent: 100px;  */
+    padding: 5px 8px 5px 8px;
+    font-style: normal;
+    font-weight: 100;
+    border: 3px solid white;
+    background-color: transparent;
+}
+
+img {
+    display: block;
+    margin-top: 10px;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
