@@ -1,26 +1,48 @@
 .login_center {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Courier New";
     text-align: center;
 
     margin-top: 10rem;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 200;
 }
 
 .login_button button {
+    background-color: transparent;
     opacity: 0;
     align-items: center;
-    border: 4px solid white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-family: "Courier New";
+    font-size: 1.5rem;
     color: white;
-    font-weight: 600;
+    font-weight: 100;
     padding: 15px 30px;
     margin-top: 50px;
     animation:
         fadeIn 1s;
     animation-delay: 10s;
     animation-fill-mode: forwards;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+a:active {
+    text-decoration: underline;
+    color: white;
 }
 
 /* The typing effect */
@@ -59,14 +81,20 @@
 }
 
 .login_text {
-    width: 50rem;
+    font-family: "Courier New";
+    font-size: 1.5rem;
+    width: 60rem;
     display: inline-block;
+    color: white;
+    font-size: 23px;
 }
 
 .login_center .first_row {
+    font-family: "Courier New";
+    font-size: 1.5rem;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: .10em solid pink;
+    border-right: .10em;
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
@@ -81,6 +109,8 @@
 
 
 .login_center .second_row {
+    font-family: "Courier New";
+    font-size: 1.5rem;
     opacity: 0;
     overflow: hidden;
     border-right: .10em solid pink;
@@ -96,6 +126,8 @@
 }
 
 .login_center .third_row {
+    font-family: "Courier New";
+    font-size: 1.5rem;
     opacity: 0;
     overflow: hidden;
     border-right: .10em solid pink;
@@ -110,9 +142,11 @@
 }
 
 .login_center .fourth_row {
+    font-family: "Courier New";
+    font-size: 1.5rem;
     opacity: 0;
     overflow: hidden;
-    border-right: .10em solid pink;
+    border-right: .10rem solid pink;
     white-space: nowrap;
     margin: 0 auto;
     animation:

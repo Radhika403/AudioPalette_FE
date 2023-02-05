@@ -22,14 +22,6 @@
     padding: 15px 30px;
 } */
 
-html {
-    background: black;
-    background-image: radial-gradient(circle at left, #9d2951 10%, #431d71 25%, #321754 40%, black 70%);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-}
-
 .opening_center {
     font-family: "Playfair Display", 'Times New Roman', Times, serif;
     text-align: center;

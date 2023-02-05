@@ -4,14 +4,14 @@ import './styleLogin.css';
 function Login() {
   return (
     <div>
-      <div class="login_center">
-        <div class="login_text">
-          <p class="first_row"> Hi, I'm an A.I. trained to evaluate musical taste.</p>
-          <p class="second_row"> To get started, I'll need to see your Spotify.</p>
-          <p class="third_row"> I'm just gonna look at what you listen to. </p>
-          <p class="fourth_row"> I won't post or change anything. </p>
+      <div className="login_center">
+        <div className="login_text">
+          <p className="first_row"> Hi, I'm an A.I. trained to evaluate musical taste.</p>
+          <p className="second_row"> To get started, I'll need to see your Spotify.</p>
+          <p className="third_row"> I'm just gonna look at what you listen to. </p>
+          <p className="fourth_row"> I won't post or change anything. </p>
         </div>
-        <div class="login_button">
+        <div className="login_button">
           <button>
             <a href="http://localhost:8888/login">Login With Spotify</a>
           </button>
