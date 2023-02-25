@@ -22,7 +22,7 @@ function Opening(){
                     <h1> <i>Palette</i></h1>
                     <p>
                         <i>
-                            How bad is your music taste? Analyze your music with us!
+                            What is your music taste? Analyze your music with us!
                         </i>
                     </p>
                     <button onClick={handleClick}><i> Get Started </i></button>
